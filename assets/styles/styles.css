@@ -6,7 +6,7 @@
 
 body {
   font-size: 15px;
-  font-family: "Open Sans", Arial;
+  font-family: "Open Sans", serif;
   color: #000;
 }
 
@@ -28,8 +28,7 @@ body {
 
 .search {
   float: right;
-  padding: 10px 20px 10px;
-  
+  padding: 10px 20px;
   font-size: 15px;
   color: #fff;
 }
@@ -43,6 +42,15 @@ ion-icon {
   color: #fff;
   font-size: 16px;
   padding: 13px;
+  margin-left: 0;
+  margin-right: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.div6followme ion-icon {
+  color: #000;
+  font-size: 25px;
+  padding: 1px;
   margin-left: 0;
   margin-right: 0;
   transition: 0.3s ease-in-out;
@@ -71,12 +79,12 @@ ion-icon {
 .title-head {
   margin: 10px;
   font-size: 50px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .title-desc {
   margin: 10px 0;
-  font-family: "Oswald";
+  font-family: 'Oswald', serif;
   font-size: 16px;
 }
 
@@ -90,7 +98,8 @@ p span {
 .pic-commented {
   width: 100%;
   height: 850px;
-  background: linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
+  background:
+  linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
     url("../images/jane.jpg");
   background-size: auto;
   background-position: center;
@@ -106,38 +115,42 @@ p span {
 
 .pict-title {
   font-size: 36px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   margin: 10px 0;
   letter-spacing: 5px;
 }
 
 .pict-title-desc {
-  font: 64px "Oswald";
+  font: 64px 'Oswald', serif;
   margin: 10px 0;
 }
 
+footer p {
+  margin-top: 50px;
+  color: #fff;
+}
+
 .pict-desc p {
-  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial;
+  font-family: 'Oswald', Arial;
 }
 
 .btn {
   padding: 13px 25px;
   font-size: 17px;
-  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial;
+  font-family: 'Oswald', Arial;
   font-weight: bold;
   background: rgba(255 255 255 / 40%);
   border: none;
-
 }
 
 .btn a {
   text-decoration: none;
-    color: #000;
+  color: #000;
 }
 
 .btn:hover {
   background: #f1f1f1;
-  opacity: 60%;
+  opacity: .6;
 }
 
 /* section2 */
@@ -156,44 +169,44 @@ p span {
   margin: 10px 20px;
 }
 
-.girlHat-box {
+.girlhat-box {
   background-color: #fff;
   margin: 10px 0;
   padding: 25px;
 }
 
 .runway-head,
-.blackHat-head,
-.girlHat-head {
+.blackhat-head,
+.girlhat-head {
   text-align: center;
   font-weight: bold;
 }
 
 .runway-title,
-.blackHat-title,
-.girlHat-title {
+.blackhat-title,
+.girlhat-title {
   font-size: 24px;
-  font-family: "Oswald";
+  font-family: 'Oswald', serif;
   margin: 10px 0;
 }
 
 .runway-desc,
-.blackHat-desc,
-.girlHat-desc {
+.blackhat-desc,
+.girlhat-desc {
   font-size: 18px;
-  font-family: "Oswald";
+  font-family: 'Oswald', serif;
   margin: 10px 0;
 }
 
 .lighter {
   background: #fff;
   color: black;
-  opacity: 60%;
+  opacity: .6;
 }
 
 .runway-img,
-.blackHat-img,
-.girlHat-img {
+.blackhat-img,
+.girlhat-img {
   width: 100%;
   vertical-align: middle;
   border-style: none;
@@ -202,8 +215,8 @@ p span {
 }
 
 .runway-box,
-.blackHat-box,
-.girlHat-box p {
+.blackhat-box,
+.girlhat-box p {
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -219,7 +232,6 @@ p span {
   padding: 12px 18px;
   font-weight: bold;
   background: #fff;
-  border: 1px solid #ccc;
   margin: 50px 0;
   cursor: pointer;
   font-size: 16px;
@@ -249,13 +261,13 @@ p span {
 }
 
 hr {
-  opacity: 30%;
+  opacity: 0.2;
 }
 
-.subDiv21,
-.subDiv22,
-.subDiv23,
-.subDiv24,
+.subdiv21,
+.subdiv22,
+.subdiv23,
+.subdiv24,
 .hide {
   display: flex;
   align-items: center;
@@ -270,14 +282,14 @@ hr {
 
 .hide h3 {
   font-size: 20px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   margin: 10px 0;
 }
 
 .lighter-15px {
   background: #fff;
   color: black;
-  opacity: 60%;
+  opacity: 0.6;
   font-size: 15px;
 }
 
@@ -288,7 +300,7 @@ hr {
   font-weight: 100;
 }
 
-.blackHat-box {
+.blackhat-box {
   background-color: #fff;
   margin-top: 40px;
   padding: 25px;
@@ -306,7 +318,7 @@ footer {
   padding: 32px;
 }
 
-.toTop {
+.totop {
   color: #fff;
   font-size: 15px;
   font-family: "Open Sans", serif;
@@ -317,11 +329,6 @@ footer {
   text-align: center;
   width: 200px;
   height: 80px;
-}
-
-footer p {
-  margin-top: 50px;
-  color: #fff;
 }
 
 .white-link {
@@ -336,30 +343,31 @@ footer p {
 .div1 {
   background-color: #000;
   color: #fff;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 15px;
   margin-bottom: 15px;
 }
 
-.avatar-desc-bgBlack {
+.avatar-desc-bgblack {
   font-size: 15px;
   font-weight: 295;
 }
 
-.avatar-desc-bgBlack h4 {
+.avatar-desc-bgblack h4 {
   margin-bottom: 26px;
   font-size: 20px;
 }
 
-.avatar-desc-bgBlack p {
-  font: 15px "Open Sans", Arial;
+.avatar-desc-bgblack p {
+  font: "Open Sans", Arial;
+  font-size: 15px;
   margin-bottom: 5px;
 }
 
 .div2 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin: 40px 0;
 }
@@ -370,46 +378,48 @@ footer p {
   padding: 15px 15px;
 }
 
-.subDiv21,
-.subDiv22,
-.subDiv23,
-.subDiv24 {
+.subdiv21,
+.subdiv22,
+.subdiv23,
+.subdiv24 {
   background-color: #fff;
   border-top: 1px solid lightgray;
-  padding: 5px 15px;
+  padding: 11px;
   font-weight: normal;
   font-family: "Open Sans", serif;
+  display: flex;
+  align-items: center;
 }
 
-.subDiv21 img {
+.subdiv21 img {
   width: 50px;
   height: 60px;
   margin-right: 15px;
   margin-top: 10px;
 }
 
-.subDiv22 img {
+.subdiv22 img {
   width: 50px;
   height: 60px;
   margin-right: 15px;
   margin-top: 10px;
 }
 
-.subDiv23 img {
+.subdiv23 img {
   width: 50px;
   height: 60px;
   margin-right: 15px;
   margin-top: 10px;
 }
 
-.subDiv23 img {
+.subdiv23 img {
   width: 50px;
   height: 60px;
   margin-right: 15px;
   margin-top: 10px;
 }
 
-.subDiv24 img {
+.subdiv24 img {
   width: 50px;
   height: 60px;
   margin-right: 15px;
@@ -422,29 +432,31 @@ footer p {
 }
 
 .tit-desc1 {
-  font: 15px "Open Sans", Arial;
+  font: "Open Sans", Arial;
+  font-size: 15px;
 }
 
-.subDiv24:hover {
+.subdiv24:hover {
   background-color: #ccc;
 }
 
-.subDiv23:hover {
+.subdiv23:hover {
   background-color: #ccc;
 }
 
-.subDiv22:hover {
+.subdiv22:hover {
   background-color: #ccc;
 }
 
-.subDiv21:hover {
+.subdiv21:hover {
   background-color: #ccc;
 }
 
 .div3 {
   background-color: #fff;
   color: #000;
-  font: 15px "Open Sans", Arial;
+  font-family: "Open Sans", Arial;
+  font-size: 15px;
   height: 250px;
   margin-bottom: 40px;
 }
@@ -452,13 +464,13 @@ footer p {
 .div3 h1 {
   background-color: #000;
   color: #fff;
-  padding: 15px 15px;
+  padding: 15px;
   width: 100%;
   margin: 0;
-  font-family: "Oswald";
+  font-family: 'Oswald', sans-serif;
 }
 
-.emptycontentAds {
+.emptycontentads {
   height: 200px;
   color: #000;
   background-color: #f1f1f1;
@@ -469,7 +481,7 @@ footer p {
   align-items: center;
 }
 
-.contentEmptyAds {
+.contentemptyads {
   background-color: #fff;
   padding: 16px;
 }
@@ -477,7 +489,7 @@ footer p {
 .div4 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin: 90px 0;
   height: 200px;
@@ -488,10 +500,10 @@ footer p {
   color: #fff;
   padding: 15px;
   width: 100%;
-  font-family: "Oswald";
+  font-family: 'Oswald", serif;
 }
 
-.div4Content {
+.div4content {
   height: 200px;
   color: #000;
   background-color: #fff;
@@ -518,18 +530,18 @@ footer p {
   column-gap: 5px;
 }
 
-.div4Content p {
+.div4content p {
   font-size: 13px;
 }
 
-.div4Content p strong {
+.div4content p strong {
   background-color: #000;
   color: #fff;
   padding: 2px 10px;
   font-size: 14px;
 }
 
-.div4Content p label {
+.div4content p label {
   background-color: #f1f1f1;
   padding: 0 5px;
 }
@@ -537,7 +549,7 @@ footer p {
 .div5 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin-top: 105px;
   margin-bottom: 0;
@@ -567,7 +579,7 @@ footer p {
 .div6followme {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin-top: 40px;
   margin-bottom: 0;
@@ -585,27 +597,18 @@ footer p {
   color: #000;
 }
 
-.div6followme ion-icon {
-  color: #000;
-  font-size: 25px;
-  padding: 1px;
-  margin-left: 0;
-  margin-right: 0;
-  transition: 0.3s ease-in-out;
-}
-
 .icon {
   padding: 10px;
 }
 
 .icon ion-icon:hover {
-  opacity: 60%;
+  opacity: 0.6;
 }
 
 .div7form {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin-top: 40px;
   height: 245px;
@@ -630,18 +633,19 @@ footer p {
 }
 
 .form input {
-  padding: 10px 10px;
+  padding: 10px;
   width: 100%;
   font-size: 15px;
 }
 
 .form h2 button {
   width: 100%;
-  padding: 10px 10px;
+  padding: 10px;
   background-color: #f44336;
   color: #fff;
   margin-top: 15px;
-  font: 15px "Open sans";
+  font-size: 15px;
+  font-family: "Open sans", serif;
   border: lightgray;
   cursor: pointer;
 }
