@@ -8,6 +8,7 @@ body {
   font-size: 15px;
   font-family: "Open Sans", serif;
   color: #000;
+
 }
 
 /* section1 header */
@@ -78,7 +79,8 @@ ion-icon {
 
 .title-head {
   margin: 10px;
-  font-size: 50px;
+  font-size: 48px;
+  font-weight: 400;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -86,13 +88,15 @@ ion-icon {
   margin: 10px 0;
   font-family: 'Oswald', serif;
   font-size: 16px;
+  font-weight: 500;
+  color: #000;
 }
 
 p span {
   width: 100%;
   background: #000;
   color: #fff;
-  padding: 2px 8px;
+  padding: 0 8px;
 }
 
 .pic-commented {
@@ -165,7 +169,7 @@ footer p {
 }
 
 .col1 {
-  flex-basis: 135%;
+  flex-basis: 160%;
   margin: 10px 20px;
 }
 
@@ -187,7 +191,7 @@ footer p {
 .girlhat-title {
   font-size: 24px;
   font-family: 'Oswald', serif;
-  margin: 10px 0;
+  font-weight: 400;
 }
 
 .runway-desc,
@@ -196,6 +200,7 @@ footer p {
   font-size: 18px;
   font-family: 'Oswald', serif;
   margin: 10px 0;
+  font-weight: 500;
 }
 
 .lighter {
@@ -214,12 +219,14 @@ footer p {
   margin-bottom: 20px;
 }
 
+/* 
+
 .runway-box,
 .blackhat-box,
 .girlhat-box p {
   margin-top: 15px;
   margin-bottom: 15px;
-}
+} */
 
 .gest-btn {
   display: flex;
@@ -336,30 +343,42 @@ footer {
 }
 
 .col2 {
-  flex-basis: 65%;
   margin: 20px 15px;
+  width: 395px;
 }
 
 .div1 {
   background-color: #000;
   color: #fff;
-  font-family: 'Oswald', serif;
-  padding: 15px;
+  padding: 0;
   margin-bottom: 15px;
+  height: 394px;
 }
+
+.div1 img {
+    width: 436px;
+    height: 233px;
+    margin: 0;
+    vertical-align: middle;
+    border-style: none;
+    filter: grayscale(75%);
+  }
 
 .avatar-desc-bgblack {
   font-size: 15px;
   font-weight: 295;
+  padding: 15px;
 }
 
 .avatar-desc-bgblack h4 {
   margin-bottom: 26px;
   font-size: 20px;
+  font-family: 'Oswald', Arial;
+  font-weight: 400;
 }
 
 .avatar-desc-bgblack p {
-  font: "Open Sans", Arial;
+  font-family: "Open Sans", Arial;
   font-size: 15px;
   margin-bottom: 5px;
 }
@@ -653,3 +672,60 @@ footer {
   background-color: #ddd;
   color: black;
 }
+
+@media screen and (max-width: 768px) {
+ .container {
+  flex-wrap: wrap;
+  width: 100%;
+  }
+
+  .title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .socialnw {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: none;
+    margin: auto;
+    height: 38.5px;
+  }
+  
+  .pic-commented {
+    width: 100%;
+    height: 508.5px;
+  }
+
+  .col2 {
+  flex-basis: 100%;
+  margin: 0 20px;
+  }
+
+  .title-head {
+  margin: 10px 0;
+  font-size: 48px;
+  }
+
+  .title-desc {
+  font-weight: bold;
+  }
+
+  footer {
+  width: 100%;
+  }
+
+  .runway-desc,
+  .blackhat-desc,
+  .girlhat-desc {
+  margin: 10px 0;
+  }
+
+  .div1 img {
+    width: 702px;
+    height: 374px;
+    margin: 0;
+  }
+
+}
+
