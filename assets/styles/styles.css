@@ -80,12 +80,12 @@ ion-icon {
   margin: 10px;
   font-size: 48px;
   font-weight: 400;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .title-desc {
   margin: 10px 0;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   font-size: 16px;
   font-weight: 500;
   color: #000;
@@ -118,13 +118,13 @@ p span {
 
 .pict-title {
   font-size: 36px;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   margin: 10px 0;
   letter-spacing: 5px;
 }
 
 .pict-title-desc {
-  font: 64px 'Oswald', serif;
+  font: 64px "Oswald", serif;
   margin: 10px 0;
 }
 
@@ -134,13 +134,13 @@ footer p {
 }
 
 .pict-desc p {
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
 }
 
 .btn {
   padding: 13px 25px;
   font-size: 17px;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   font-weight: bold;
   background: rgba(255 255 255 / 40%);
   border: none;
@@ -189,7 +189,7 @@ footer p {
 .blackhat-title,
 .girlhat-title {
   font-size: 24px;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   font-weight: 400;
 }
 
@@ -197,7 +197,7 @@ footer p {
 .blackhat-desc,
 .girlhat-desc {
   font-size: 18px;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   margin: 10px 0;
   font-weight: 500;
 }
@@ -279,7 +279,7 @@ hr {
 
 .hide h3 {
   font-size: 20px;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   margin: 10px;
 }
 
@@ -367,7 +367,7 @@ footer {
 .avatar-desc-bgblack h4 {
   margin-bottom: 26px;
   font-size: 20px;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   font-weight: 400;
 }
 
@@ -380,7 +380,7 @@ footer {
 .div2 {
   background-color: #fff;
   color: #000;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   padding: 0;
   margin: 40px 0;
 }
@@ -473,7 +473,7 @@ footer {
   padding: 15px;
   width: 100%;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .emptycontentads {
@@ -495,7 +495,7 @@ footer {
 .div4 {
   background-color: #fff;
   color: #000;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   padding: 0;
   margin: 90px 0 100px;
   height: 200px;
@@ -506,7 +506,7 @@ footer {
   color: #fff;
   padding: 15px;
   width: 100%;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
 }
 
 .div4content {
@@ -547,7 +547,7 @@ footer {
 .div5 {
   background-color: #fff;
   color: #000;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   padding: 0;
   margin-top: 105px 15px;
   margin-bottom: 0;
@@ -589,7 +589,7 @@ footer {
 .div6followme {
   background-color: #fff;
   color: #000;
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   padding: 0;
   margin-top: 40px;
   margin-bottom: 0;
