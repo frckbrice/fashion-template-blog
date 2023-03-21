@@ -80,12 +80,12 @@ ion-icon {
   margin: 10px;
   font-size: 48px;
   font-weight: 400;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .title-desc {
   margin: 10px 0;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #000;
@@ -118,13 +118,14 @@ p span {
 
 .pict-title {
   font-size: 36px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
   margin: 10px 0;
   letter-spacing: 5px;
 }
 
 .pict-title-desc {
-  font: 64px "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
   margin: 10px 0;
 }
 
@@ -279,7 +280,7 @@ hr {
 
 .hide h3 {
   font-size: 20px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
   margin: 10px;
 }
 
@@ -367,12 +368,12 @@ footer {
 .avatar-desc-bgblack h4 {
   margin-bottom: 26px;
   font-size: 20px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
 
 .avatar-desc-bgblack p {
-  font-family: "Open Sans", serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 15px;
   margin-bottom: 5px;
 }
@@ -380,7 +381,7 @@ footer {
 .div2 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
   padding: 0;
   margin: 40px 0;
 }
@@ -399,7 +400,7 @@ footer {
   border-top: 1px solid lightgray;
   padding: 11px;
   font-weight: normal;
-  font-family: "Open Sans", serif;
+  font-family: 'Oswald', sans-serif;
   display: flex;
   align-items: center;
 }
@@ -438,7 +439,7 @@ footer {
 }
 
 .tit-desc1 {
-  font: "Open Sans", serif;
+  font: 'Oswald', sans-serif;
   font-size: 15px;
 }
 
@@ -461,7 +462,7 @@ footer {
 .div3 {
   background-color: #fff;
   color: #000;
-  font-family: "Open Sans", serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 15px;
   height: 250px;
   margin-bottom: 40px;
@@ -473,7 +474,7 @@ footer {
   padding: 15px;
   width: 100%;
   margin: 0;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .emptycontentads {
@@ -495,7 +496,7 @@ footer {
 .div4 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
   padding: 0;
   margin: 90px 0 100px;
   height: 200px;
@@ -506,7 +507,7 @@ footer {
   color: #fff;
   padding: 15px;
   width: 100%;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .div4content {
@@ -547,7 +548,7 @@ footer {
 .div5 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
   padding: 0;
   margin-top: 105px 15px;
   margin-bottom: 0;
@@ -589,7 +590,7 @@ footer {
 .div6followme {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', sans-serif;
   padding: 0;
   margin-top: 40px;
   margin-bottom: 0;
