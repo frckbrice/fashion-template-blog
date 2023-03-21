@@ -80,12 +80,12 @@ ion-icon {
   margin: 10px;
   font-size: 48px;
   font-weight: 400;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .title-desc {
   margin: 10px 0;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   font-size: 16px;
   font-weight: 500;
   color: #000;
@@ -110,7 +110,7 @@ p span {
 }
 
 .pict-desc {
-  position: absolute; 
+  position: absolute;
   top: 35%;
   left: 30px;
   color: #fff;
@@ -118,13 +118,13 @@ p span {
 
 .pict-title {
   font-size: 36px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   margin: 10px 0;
   letter-spacing: 5px;
 }
 
 .pict-title-desc {
-  font: 64px "Oswald", serif;
+  font: 64px 'Oswald', serif;
   margin: 10px 0;
 }
 
@@ -134,13 +134,13 @@ footer p {
 }
 
 .pict-desc p {
-  font-family: "Oswald", Arial;
+  font-family: 'Oswald', serif;
 }
 
 .btn {
   padding: 13px 25px;
   font-size: 17px;
-  font-family: "Oswald", Arial;
+  font-family: 'Oswald', serif;
   font-weight: bold;
   background: rgba(255 255 255 / 40%);
   border: none;
@@ -189,7 +189,7 @@ footer p {
 .blackhat-title,
 .girlhat-title {
   font-size: 24px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   font-weight: 400;
 }
 
@@ -197,7 +197,7 @@ footer p {
 .blackhat-desc,
 .girlhat-desc {
   font-size: 18px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   margin: 10px 0;
   font-weight: 500;
 }
@@ -217,15 +217,6 @@ footer p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-/* 
-
-.runway-box,
-.blackhat-box,
-.girlhat-box p {
-  margin-top: 15px;
-  margin-bottom: 15px;
-} */
 
 .gest-btn {
   display: flex;
@@ -288,7 +279,7 @@ hr {
 
 .hide h3 {
   font-size: 20px;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   margin: 10px;
 }
 
@@ -376,12 +367,12 @@ footer {
 .avatar-desc-bgblack h4 {
   margin-bottom: 26px;
   font-size: 20px;
-  font-family: "Oswald", Arial;
+  font-family: 'Oswald', serif;
   font-weight: 400;
 }
 
 .avatar-desc-bgblack p {
-  font-family: "Open Sans", Arial;
+  font-family: "Open Sans", serif;
   font-size: 15px;
   margin-bottom: 5px;
 }
@@ -389,7 +380,7 @@ footer {
 .div2 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin: 40px 0;
 }
@@ -397,7 +388,7 @@ footer {
 .div2 h1 {
   background-color: #000;
   color: #fff;
-  padding: 15px 15px;
+  padding: 15px;
 }
 
 .subdiv21,
@@ -434,13 +425,6 @@ footer {
   margin-top: 10px;
 }
 
-.subdiv23 img {
-  width: 50px;
-  height: 60px;
-  margin-right: 15px;
-  margin-top: 10px;
-}
-
 .subdiv24 img {
   width: 50px;
   height: 60px;
@@ -454,7 +438,7 @@ footer {
 }
 
 .tit-desc1 {
-  font: "Open Sans", Arial;
+  font: "Open Sans", serif;
   font-size: 15px;
 }
 
@@ -477,7 +461,7 @@ footer {
 .div3 {
   background-color: #fff;
   color: #000;
-  font-family: "Open Sans", Arial;
+  font-family: "Open Sans", serif;
   font-size: 15px;
   height: 250px;
   margin-bottom: 40px;
@@ -489,7 +473,7 @@ footer {
   padding: 15px;
   width: 100%;
   margin: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .emptycontentads {
@@ -511,7 +495,7 @@ footer {
 .div4 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin: 90px 0 100px;
   height: 200px;
@@ -522,7 +506,7 @@ footer {
   color: #fff;
   padding: 15px;
   width: 100%;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
 }
 
 .div4content {
@@ -563,7 +547,7 @@ footer {
 .div5 {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin-top: 105px 15px;
   margin-bottom: 0;
@@ -594,7 +578,7 @@ footer {
 }
 
 .cell1 {
-  margin: 0 0 12px 0;
+  margin: 0 0 12px;
 }
 
 .img-reset {
@@ -605,7 +589,7 @@ footer {
 .div6followme {
   background-color: #fff;
   color: #000;
-  font-family: "Oswald", serif;
+  font-family: 'Oswald', serif;
   padding: 0;
   margin-top: 40px;
   margin-bottom: 0;
@@ -697,16 +681,15 @@ footer {
     width: auto;
     flex-wrap: nowrap;
     overflow-x: none;
-    margin: auto;
     height: 38.5px;
-    margin: 0px 5px 0px 0px;
+    margin: 0 5px 0 0;
   }
 
   .pic-commented {
-    width: auto;
+    width: 100%;
     height: 508.5px;
     margin: auto;
-    margin: 0px 5px 0px 0px;
+    margin: 0 5px 0 0;
   }
 
   .col2 {
@@ -725,7 +708,7 @@ footer {
 
   footer {
     width: 100%;
-    margin: 0px 5px 0px 0px;
+    margin: 0 5px 0 0;
   }
 
   .runway-desc,
@@ -788,7 +771,6 @@ footer {
 
   .hide h3 {
     margin: 10px 0;
-
   }
 
   .hide h4 {
@@ -796,18 +778,18 @@ footer {
   }
 
   .img-reset {
-    width: 100%;  
+    width: 100%;
     height: auto;
   }
 
-   .socialnw {
+  .socialnw {
     display: none;
   }
 
   .pic-commented {
     width: 100%;
     height: 331px;
-    overflow-block:none;
+    overflow-block: none;
     margin: auto;
   }
 
@@ -817,7 +799,7 @@ footer {
     font-weight: 400;
   }
 
-  .btn{
+  .btn {
     font-size: 15px;
     padding: 9px 16px;
     font-weight: 400;
