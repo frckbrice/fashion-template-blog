@@ -80,12 +80,12 @@ ion-icon {
   margin: 10px;
   font-size: 48px;
   font-weight: 400;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 .title-desc {
   margin: 10px 0;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #000;
@@ -118,13 +118,13 @@ p span {
 
 .pict-title {
   font-size: 36px;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   margin: 10px 0;
   letter-spacing: 5px;
 }
 
 .pict-title-desc {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 64px;
   margin: 10px 0;
 }
@@ -135,13 +135,13 @@ footer p {
 }
 
 .pict-desc p {
-  font-family: 'PT Sans Narrow', serif;
+  font-family: Oswald, serif;
 }
 
 .btn {
   padding: 13px 25px;
   font-size: 17px;
-  font-family: 'PT Sans Narrow', serif;
+  font-family: Oswald, serif;
   font-weight: bold;
   background: rgba(255 255 255 / 40%);
   border: none;
@@ -190,7 +190,7 @@ footer p {
 .blackhat-title,
 .girlhat-title {
   font-size: 24px;
-  font-family: 'PT Sans Narrow', serif;
+  font-family: Oswald, serif;
   font-weight: 400;
 }
 
@@ -198,7 +198,7 @@ footer p {
 .blackhat-desc,
 .girlhat-desc {
   font-size: 18px;
-  font-family: 'PT Sans Narrow', serif;
+  font-family: Oswald, serif;
   margin: 10px 0;
   font-weight: 500;
 }
@@ -280,7 +280,7 @@ hr {
 
 .hide h3 {
   font-size: 20px;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   margin: 10px;
 }
 
@@ -334,7 +334,7 @@ footer {
 }
 
 .col2 {
-  margin: 20px 15px;
+  margin: 0 15px;
   width: 65%;
 }
 
@@ -342,7 +342,7 @@ footer {
   background-color: #000;
   color: #fff;
   padding: 0;
-  margin: 25px 0 15px;
+  margin: 20px 0 15px;
 }
 
 .div1-img {
@@ -368,12 +368,12 @@ footer {
 .avatar-desc-bgblack h4 {
   margin-bottom: 26px;
   font-size: 20px;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 400;
 }
 
 .avatar-desc-bgblack p {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 15px;
   margin-bottom: 5px;
 }
@@ -381,7 +381,7 @@ footer {
 .div2 {
   background-color: #fff;
   color: #000;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   padding: 0;
   margin: 40px 0;
 }
@@ -400,7 +400,7 @@ footer {
   border-top: 1px solid lightgray;
   padding: 11px;
   font-weight: normal;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   display: flex;
   align-items: center;
 }
@@ -439,7 +439,7 @@ footer {
 }
 
 .tit-desc1 {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 15px;
 }
 
@@ -462,7 +462,7 @@ footer {
 .div3 {
   background-color: #fff;
   color: #000;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 15px;
   height: 250px;
   margin-bottom: 40px;
@@ -474,7 +474,7 @@ footer {
   padding: 15px;
   width: 100%;
   margin: 0;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 .emptycontentads {
@@ -496,7 +496,7 @@ footer {
 .div4 {
   background-color: #fff;
   color: #000;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   padding: 0;
   margin: 90px 0 100px;
   height: 200px;
@@ -507,7 +507,7 @@ footer {
   color: #fff;
   padding: 15px;
   width: 100%;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 .div4content {
@@ -548,7 +548,7 @@ footer {
 .div5 {
   background-color: #fff;
   color: #000;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   padding: 0;
   margin-top: 105px 15px;
   margin-bottom: 0;
@@ -590,7 +590,7 @@ footer {
 .div6followme {
   background-color: #fff;
   color: #000;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Oswald, sans-serif;
   padding: 0;
   margin-top: 40px;
   margin-bottom: 0;
@@ -669,7 +669,6 @@ footer {
   .container {
     flex-wrap: wrap;
     width: 100%;
-    background-color: red;
     overflow: hidden;
   }
 
@@ -695,7 +694,7 @@ footer {
 
   .col2 {
     flex-basis: 100%;
-    margin: 0 20px;
+    margin: 0 25px;
   }
 
   .title-head {
@@ -825,5 +824,14 @@ footer {
 
   footer {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pic-commented {
+    width: 100%;
+    height: 657.2px;
+    margin: auto;
+    margin: 0 5px 0 0;
   }
 }
