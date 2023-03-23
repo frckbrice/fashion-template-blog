@@ -237,9 +237,20 @@ footer p {
   justify-content: space-between;
 }
 
+.like-btn3, 
+.like-btn2 {
+  border: 1px solid lightgray;
+  padding: 12px 18px;
+  font-weight: bold;
+  background: #fff;
+  margin: 50px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .like-btn,
 .replie-btn {
-  border: none;
+  border: 1px solid lightgray;
   padding: 12px 18px;
   font-weight: bold;
   background: #fff;
@@ -249,7 +260,7 @@ footer p {
 }
 
 .replie-btn2 {
-  border: none;
+  border: 1px solid lightgray;
   padding: 12px 18px;
   font-weight: bold;
   background: #fff;
@@ -259,7 +270,7 @@ footer p {
 }
 
 .replie-btn3 {
-  border: none;
+  border: 1px solid lightgray;
   padding: 12px 18px;
   font-weight: bold;
   background: #fff;
@@ -269,6 +280,16 @@ footer p {
 }
 
 .like-btn:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+.like-btn2:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+.like-btn3:hover {
   color: #000 !important;
   background-color: #ccc !important;
 }
@@ -734,101 +755,6 @@ footer {
   color: black;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    flex-wrap: wrap;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .title {
-    width: 100%;
-    text-align: center;
-  }
-
-  .socialnw {
-    width: auto;
-    flex-wrap: nowrap;
-    overflow-x: none;
-    height: 38.5px;
-    margin: 0 5px 0 0;
-  }
-
-  .pic-commented {
-    width: 100%;
-    height: 508.5px;
-    margin: auto;
-    margin: 0 5px 0 0;
-  }
-
-  .col2 {
-    flex-basis: 100%;
-    margin: 0 25px;
-  }
-
-  .title-head {
-    margin: 10px 0;
-    font-size: 48px;
-  }
-
-  .title-desc {
-    font-weight: bold;
-  }
-
-  footer {
-    width: 100%;
-    margin: 0 5px 0 0;
-  }
-
-  .runway-desc,
-  .blackhat-desc,
-  .girlhat-desc {
-    margin: 10px 0;
-  }
-
-  .div1 img {
-    width: 708px;
-    height: 374px;
-    margin: 0;
-  }
-
-  .subdiv21,
-  .subdiv22,
-  .subdiv23,
-  .subdiv24 {
-    padding: 9px;
-  }
-
-  .div6followme {
-    margin-top: 40px;
-    margin-bottom: 0;
-  }
-
-  .div7form {
-    margin-bottom: 20px;
-  }
-
-  .form input {
-    border: 1px solid lightgray;
-  }
-
-  .div5 {
-    object-fit: contain;
-  }
-
-  .div1-img img {
-    width: 100%;
-  }
-
-  .hide h3 {
-    margin-left: 35px;
-  }
-
-  .hide h4 {
-    margin-left: 35px;
-  }
-}
-
 @media screen and (max-width: 580px) {
   .container {
     margin: 15px auto;
@@ -839,14 +765,14 @@ footer {
   }
 
   .hide h3 {
-    margin: 10px 0;
+    margin: 11px 0;
   }
 
   .hide h4 {
-    margin: 15px 0;
+    margin: 16px 0;
   }
 
-  .img-reset {
+  div.img-reset {
     width: 100%;
     height: auto;
   }
@@ -857,13 +783,13 @@ footer {
 
   .pic-commented {
     width: 100%;
-    height: 331px;
+    height: 331.1px;
     overflow-block: none;
     margin: auto;
   }
 
   .pict-title {
-    font-size: 30px;
+    font-size: 31px;
     margin: 10px 0;
     font-weight: 400;
   }
@@ -871,7 +797,7 @@ footer {
   .btn {
     font-size: 15px;
     padding: 9px 16px;
-    font-weight: 400;
+    font-weight: 401;
     background: rgba(255 255 255 / 60%);
   }
 
@@ -896,19 +822,19 @@ footer {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px) {
-  .container {
+@media screen and (max-width: 990px) {
+  div.container {
     flex-wrap: wrap;
     width: 100%;
     overflow: hidden;
   }
 
-  .title {
+  div.title {
     width: 100%;
     text-align: center;
   }
 
-  .socialnw {
+  div.socialnw {
     width: auto;
     flex-wrap: nowrap;
     overflow-x: none;
@@ -916,24 +842,24 @@ footer {
     margin: 0 5px 0 0;
   }
 
-  .pic-commented {
+  div.pic-commented {
     width: 100%;
     height: auto;
     margin: auto;
     margin: 0 5px 0 0;
   }
 
-  .col2 {
+  div.col2 {
     flex-basis: 100%;
     margin: 0 25px;
   }
 
-  .title-head {
+  div.title-head {
     margin: 10px 0;
     font-size: 48px;
   }
 
-  .title-desc {
+  div.title-desc {
     font-weight: bold;
   }
 
@@ -942,51 +868,51 @@ footer {
     margin: 0 5px 0 0;
   }
 
-  .runway-desc,
-  .blackhat-desc,
-  .girlhat-desc {
+  div.runway-desc,
+  div.blackhat-desc,
+  div.girlhat-desc {
     margin: 10px 0;
   }
 
-  .div1 img {
+  div.div1 img {
     width: 100%;
     height: 374px;
     margin: 0;
   }
 
-  .subdiv21,
-  .subdiv22,
-  .subdiv23,
-  .subdiv24 {
+  div.subdiv21,
+  div.subdiv22,
+  div.subdiv23,
+  div.subdiv24 {
     padding: 9px;
   }
 
-  .div6followme {
+  div.div6followme {
     margin-top: 40px;
     margin-bottom: 0;
   }
 
-  .div7form {
+  div.div7form {
     margin-bottom: 20px;
   }
 
-  .form input {
+  div.form input {
     border: 1px solid lightgray;
   }
 
-  .div5 {
+  div.div5 {
     object-fit: contain;
   }
 
-  .div1-img img {
+  div.div1-img img {
     width: 100%;
   }
 
-  .hide h3 {
+  div.hide h3 {
     margin-left: 35px;
   }
 
-  .hide h4 {
+  div.hide h4 {
     margin-left: 35px;
   }
 }
