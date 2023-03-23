@@ -237,8 +237,8 @@ footer p {
   justify-content: space-between;
 }
 
-.like-btn3, 
-.like-btn2 {
+.like-btn2,
+.like-btn3 {
   border: 1px solid lightgray;
   padding: 12px 18px;
   font-weight: bold;
@@ -294,19 +294,9 @@ footer p {
   background-color: #ccc !important;
 }
 
-.replie-btn {
-  background-color: #000;
-  color: #fff;
-  display: inline;
-}
-
-.replie-btn2 {
-  background-color: #000;
-  color: #fff;
-  display: inline;
-}
-
-.replie-btn3 {
+.replie-bt,
+.replie-bt2,
+.replie-bt3 {
   background-color: #000;
   color: #fff;
   display: inline;
@@ -768,7 +758,7 @@ footer {
     margin: 11px 0;
   }
 
-  .hide h4 {
+  .hide1 h4 {
     margin: 16px 0;
   }
 
