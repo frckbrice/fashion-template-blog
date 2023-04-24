@@ -6,6 +6,8 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-size: 15px;
   font-family: "Open Sans", serif;
   color: #000;
@@ -768,14 +770,10 @@ footer {
   .runway-box,
   .blackhat-box,
   .girlhat-box {
-    height: 80vh;
+    height: 70vh;
   }
 
   .div4 {
-    background-color: #fff;
-    color: #000;
-    font-family: Oswald, sans-serif;
-    padding: 0;
     margin: 90px 0 90px;
     height: 100px;
   }
@@ -859,17 +857,77 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .div4content1 {
     display: none;
   }
 
-   .div4 {
-height: 120px;
-   }
+  .div4 {
+    height: 120px;
+  }
+
+  .div5 {
+    background-color: #fff;
+    color: #000;
+    font-family: Oswald, sans-serif;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .content3 {
+    margin-bottom: 0;
+  }
+
+  .div4content {
+    /* display: block; */
+    height: 129px;
+    padding: 0;
+    margin-bottom: 3%;
+  }
+
+  .content1 {
+    margin: 2%;
+    padding: 2%;
+  }
+
+  .content2 {
+    margin: 7% 2%;
+  }
+
+  .content3 {
+    margin: 7% 4%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .div4content1 {
+    display: none;
+  }
+
+  .div4 {
+    height: 120px;
+  }
+
+  .div5 {
+    margin-top: 150px;
+  }
+
+  label {
+    width: 30px;
+    background-color: #f44336;
+  }
 
   .div4content {
     display: block;
+    height: 160px;
+    padding: 15px 5px;
+    flex-wrap: wrap;
+  }
+
+  .div4content p {
+    width: fit-content;
+    font-size: 10px;
   }
 
   .content1 {
@@ -882,6 +940,82 @@ height: 120px;
 
   .content3 {
     margin: 7% 0 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content1 {
+    flex-basis: 15%;
+    width: 15%;
+  }
+
+  .col2 {
+    margin: 16px 0;
+    padding: 12px 0;
+  }
+
+  .col1 {
+    margin: 16px 0;
+    padding: 12px 0;
+  }
+
+  .container {
+    row-gap: 10%;
+  }
+
+  .girlhat-box hr {
+    display: block;
+  }
+
+  .gest-btn {
+    margin-bottom: 25%;
+  }
+
+  .girlhat-box {
+    height: 42%;
+  }
+
+  .blackhat-box {
+    height: 28%;
+  }
+
+  .runway-box {
+    height: 18%;
+    margin-bottom: 10%;
+  }
+
+  .hide1 {
+    display: block;
+  }
+
+  .hide-desc {
+    display: flex;
+    flex-direction: column;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+  }
+
+  .hide-desc h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .replie-btn3,
+  .replie-btn2,
+  .replie-btn {
+    padding: 10px;
+    margin-bottom: 0;
+    width: 40vw;
+    margin-left: 10px;
+  }
+
+  .like-btn3,
+  .like-btn2,
+  .like-btn {
+    padding: 10px;
+    margin-bottom: 0;
+    width: 30vw;
   }
 }
 
@@ -915,7 +1049,7 @@ height: 120px;
 
   div.col2 {
     flex-basis: 100%;
-    margin: 0 25px;
+    margin: 0 10px;
   }
 
   div.title-head {
@@ -973,10 +1107,10 @@ height: 120px;
   }
 
   div.hide h3 {
-    margin-left: 35px;
+    margin-left: 0;
   }
 
   div.hide h4 {
-    margin-left: 35px;
+    margin-left: 0;
   }
 }
