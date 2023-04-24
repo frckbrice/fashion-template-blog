@@ -584,7 +584,6 @@ footer {
   font-family: Oswald, sans-serif;
 }
 
-
 .div4content1 {
   height: 100px;
   color: #000;
@@ -622,7 +621,7 @@ footer {
 }
 
 .strong {
-   background-color: #000;
+  background-color: #000;
   color: #fff;
   /* padding: 2px 10px; */
   font-size: 14px;
@@ -636,7 +635,7 @@ footer {
 }
 
 .div4content1 label {
-background-color: #f1f1f1;
+  background-color: #f1f1f1;
   padding: 0 5px;
 }
 
@@ -772,18 +771,18 @@ background-color: #f1f1f1;
     height: 80vh;
   }
 
-.div4 {
-  background-color: #fff;
-  color: #000;
-  font-family: Oswald, sans-serif;
-  padding: 0;
-  margin: 90px 0 90px;
-  height: 100px;
-}
+  .div4 {
+    background-color: #fff;
+    color: #000;
+    font-family: Oswald, sans-serif;
+    padding: 0;
+    margin: 90px 0 90px;
+    height: 100px;
+  }
 
-.content1 {
-  margin-bottom: 2%;
-}
+  .content1 {
+    margin-bottom: 2%;
+  }
 
   .div4content {
     display: none;
@@ -857,6 +856,32 @@ background-color: #f1f1f1;
 
   footer {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .div4content1 {
+    display: none;
+  }
+
+   .div4 {
+height: 120px;
+   }
+
+  .div4content {
+    display: block;
+  }
+
+  .content1 {
+    margin-bottom: 2%;
+  }
+
+  .content2 {
+    margin-top: 7%;
+  }
+
+  .content3 {
+    margin: 7% 0 10%;
   }
 }
 
