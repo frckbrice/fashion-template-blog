@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
   font-size: 15px;
   font-family: "Open Sans", serif;
   color: #000;
+  border: 1px solid blue;
 }
 
 /* section1 header */
@@ -169,6 +171,7 @@ footer p {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .col1 {
@@ -281,17 +284,17 @@ footer p {
 
 .like-btn:hover {
   color: #000 !important;
-  background-color: #ccc !important;
+  background-color: #ccc;
 }
 
 .like-btn2:hover {
-  color: #000 !important;
-  background-color: #ccc !important;
+  color: #000;
+  background-color: #ccc;
 }
 
 .like-btn3:hover {
-  color: #000 !important;
-  background-color: #ccc !important;
+  color: #000;
+  background-color: #ccc;
 }
 
 .replie-bt,
@@ -453,7 +456,7 @@ footer {
 }
 
 .avatar-desc-bgblack p {
-  font-family: Oswald, sans-serif;
+  font-family: "open Sans", sans-serif;
   font-size: 15px;
   margin-bottom: 5px;
 }
@@ -523,26 +526,17 @@ footer {
   font-size: 15px;
 }
 
+.subdiv21:hover,
+.subdiv22:hover,
+.subdiv23:hover,
 .subdiv24:hover {
-  background-color: #ccc;
-}
-
-.subdiv23:hover {
-  background-color: #ccc;
-}
-
-.subdiv22:hover {
-  background-color: #ccc;
-}
-
-.subdiv21:hover {
   background-color: #ccc;
 }
 
 .div3 {
   background-color: #fff;
   color: #000;
-  font-family: Oswald, sans-serif;
+  font-family: "open Sans", sans-serif;
   font-size: 15px;
   height: 250px;
   margin-bottom: 40px;
@@ -554,7 +548,7 @@ footer {
   padding: 15px;
   width: 100%;
   margin: 0;
-  font-family: Oswald, sans-serif;
+  font-family: "open Sans", sans-serif;
 }
 
 .emptycontentads {
@@ -579,7 +573,7 @@ footer {
   font-family: Oswald, sans-serif;
   padding: 0;
   margin: 90px 0 100px;
-  height: 200px;
+  height: 180px;
 }
 
 .div4 h1 {
@@ -588,6 +582,20 @@ footer {
   padding: 15px;
   width: 100%;
   font-family: Oswald, sans-serif;
+}
+
+
+.div4content1 {
+  height: 100px;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 15px 0;
+  row-gap: 20px;
+  font-family: "Open Sans", serif;
+  display: none;
 }
 
 .div4content {
@@ -613,11 +621,23 @@ footer {
   font-size: 13px;
 }
 
+.strong {
+   background-color: #000;
+  color: #fff;
+  /* padding: 2px 10px; */
+  font-size: 14px;
+}
+
 .div4content p strong {
   background-color: #000;
   color: #fff;
   padding: 2px 10px;
   font-size: 14px;
+}
+
+.div4content1 label {
+background-color: #f1f1f1;
+  padding: 0 5px;
 }
 
 .div4content p label {
@@ -745,30 +765,58 @@ footer {
   color: black;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 768px) {
+  .runway-box,
+  .blackhat-box,
+  .girlhat-box {
+    height: 80vh;
+  }
+
+.div4 {
+  background-color: #fff;
+  color: #000;
+  font-family: Oswald, sans-serif;
+  padding: 0;
+  margin: 90px 0 90px;
+  height: 100px;
+}
+
+.content1 {
+  margin-bottom: 2%;
+}
+
+  .div4content {
+    display: none;
+  }
+
+  .div4content1 {
+    row-gap: 2%;
+    display: block;
+  }
+
+  .avatar-desc-bgblack {
+    font-family: "open Sans", sans-serif;
+  }
+
+  .div3 h1 {
+    font-family: "open Sans", sans-serif;
+  }
+
   .container {
     margin: 15px auto;
   }
 
   .hide {
-    display: block;
+    display: none;
   }
 
-  .hide h3 {
-    margin: 11px 0;
-  }
-
-  .hide1 h4 {
-    margin: 16px 0;
+  hr {
+    display: none;
   }
 
   div.img-reset {
     width: 100%;
     height: auto;
-  }
-
-  .socialnw {
-    display: none;
   }
 
   .pic-commented {
@@ -817,6 +865,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     overflow: hidden;
+    background-color: aqua;
   }
 
   div.title {
