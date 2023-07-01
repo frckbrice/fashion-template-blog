@@ -28,22 +28,22 @@
         <div class="icons">
           <!--add icons-->
           <p>
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
           </p>
           <p>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
           </p>
           <p>
-            <a href="#"><ion-icon name="logo-snapchat"></ion-icon></a>
+            <a href="#"><i class="fa fa-snapchat"></i></a>
           </p>
           <p>
-            <a href="#"><ion-icon name="logo-flickr"></ion-icon></a>
+            <a href="#"><i class="fa fa-flickr"></i></a>
           </p>
           <p>
-            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
           </p>
           <p>
-            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
           </p>
         </div>
         <div class="icon-search">
@@ -79,53 +79,51 @@
           <div class="girlhat-box">
             <div class="girlhat-head">
               <h1 class="girlhat-title">TITLE HEADING</h1>
-              <p class="girlhat-desc">
+              <div class="girlhat-desc">
                 Title description,<span class="lighter"> May 2, 2016</span>
+              </div>
+            </div>
+            <div>
+              <img
+                src="./assets/images/girl_hat.jpg"
+                alt="girl_hat"
+                class="girlhat-img"
+              />
+
+              <!--add the link to the image-->
+              <p class="girlhat-p">
+                <b> More Hats!</b> I am crazy about hats these days. Some text
+                about this blog entry. Fashion fashion and mauris neque quam,
+                fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc
+                id lorem euismod placerat. Vivamus porttitor magna enim, ac
+                accumsan tortor cursus at. Phasellus sed ultricies mi non congue
+                ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae
+                justo condimentum, porta lectus vitae, ultricies congue gravida
+                diam non fringilla.
+              </p>
+              <p>
+                Sunt in culpa qui officia deserunt mollit anim id est laborum
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco.
               </p>
             </div>
-            <img
-              src="./assets/images/girl_hat.jpg"
-              alt="girl_hat"
-              class="girlhat-img"
-            />
-
-            <!--add the link to the image-->
-            <p class="girlhat-p">
-              <b> More Hats!</b> I am crazy about hats these days. Some text
-              about this blog entry. Fashion fashion and mauris neque quam,
-              fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc
-              id lorem euismod placerat. Vivamus porttitor magna enim, ac
-              accumsan tortor cursus at. Phasellus sed ultricies mi non congue
-              ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae
-              justo condimentum, porta lectus vitae, ultricies congue gravida
-              diam non fringilla.
-            </p>
-            <p>
-              Sunt in culpa qui officia deserunt mollit anim id est laborum
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco.
-            </p>
             <div class="gest-btn">
-              <p>
-                <button class="like-btn">
-                  <b><i class="fa fa-thumbs-up"></i> "Like"</b>
-                </button>
-                <br />
-              </p>
-              <p>
-                <button class="replie-btn replie-bt">
-                  <b>Replies &nbsp;</b>
-                  <span class="meter">1</span>
-                </button>
-              </p>
+              <button class="like-btn">
+                <i class="fa fa-thumbs-up"></i><span>Like</span>
+              </button>
+
+              <button class="replie-btn replie-bt">
+                <b>Replies &nbsp;</b>
+                <span class="meter">1</span>
+              </button>
 
               <!--add icon to like left and meter on right btn -->
             </div>
 
-            <hr />
             <!--add the part hiddened below after the h-bar-->
             <div class="hide hide1">
+              <hr />
               <!--add the content hidden-->
               <img
                 src="./assets/images/george.jpg"
@@ -168,19 +166,15 @@
               Sed vitae justo porta lectus vitae, ultricies congue gravida diam
               non fringilla.
             </p>
-            <div class="gest-btn2">
-              <p>
-                <button class="like-btn2">
-                  <b><i class="fa fa-thumbs-up"></i> "Like"</b>
-                </button>
-                <br />
-              </p>
-              <p>
-                <button class="replie-btn2 replie-bt2">
-                  <b>Replies &nbsp;</b>
-                  <span class="meter2">2</span>
-                </button>
-              </p>
+            <div class="gest-btn3">
+              <button class="like-btn2">
+                <i class="fa fa-thumbs-up"></i><span>Like</span>
+              </button>
+
+              <button class="replie-btn2 replie-bt2">
+                <b>Replies &nbsp;</b>
+                <span class="meter2">2</span>
+              </button>
 
               <!--add icon to like left and meter on right btn -->
             </div>
@@ -232,7 +226,8 @@
               <div class="runway-head">
                 <h1 class="runway-title">TTITLE HEADING</h1>
                 <p class="runway-desc">
-                  Title description,<span class="lighter"> April 7, 2016</span>
+                  <label>Title description,</label
+                  ><label class="lighter"> April 7, 2016</label>
                 </p>
               </div>
               <img
@@ -247,7 +242,7 @@
                 gonna be legendary!
               </p>
               <br />
-              <p>
+              <p class="runway-p">
                 Some text about this blog entry. Fashion fashion and mauris
                 neque quam, fermentum ut nisl vitae, convallis<br />maximus
                 nisl. mattis nunc id lorem euismod placerat. Vivamus porttitor
@@ -257,19 +252,15 @@
                 Sed vitae justo condimentum, porta lectus vitae, ultricies
                 congue gravida diam non fringilla.
               </p>
-              <div class="gest-btn3">
-                <p>
-                  <button class="like-btn3">
-                    <b><i class="fa fa-thumbs-up"></i> "Like"</b>
-                  </button>
-                  <br />
-                </p>
-                <p>
-                  <button class="replie-btn3 replie-bt3">
-                    <b>Replies &nbsp;</b>
-                    <span class="meter3">3</span>
-                  </button>
-                </p>
+              <div class="gest-btn">
+                <button class="like-btn3">
+                  <i class="fa fa-thumbs-up"></i><span>Like</span>
+                </button>
+
+                <button class="replie-btn3 replie-bt3">
+                  <b>Replies &nbsp;</b>
+                  <span class="meter3">3</span>
+                </button>
 
                 <!--add icon to like left and meter on right btn -->
               </div>
@@ -346,7 +337,7 @@
               <p>
                 Just me, myself and I, exploring the universe of uknownment. I
                 have a heart of love and a interest of lorem ipsum and mauris
-                neque quam blog. I want to share my world with you.
+                neque quam blog. I <br />want to share my world with you.
               </p>
             </div>
           </div>
@@ -394,7 +385,7 @@
             <h1>Tags</h1>
             <div class="div4content">
               <!--add the small titles-->
-              <div class="content1">
+              <!-- <div class="content1">
                 <p><strong>Fashion</strong></p>
                 <p><label>New York</label></p>
                 <p><label>Lodon</label></p>
@@ -413,6 +404,53 @@
                 <p><label>shopping</label></p>
                 <p><label>jeans</label></p>
                 <p><label>Trends</label></p>
+              </div> -->
+              <div class="content1">
+                <strong class="fashion">Fashion</strong>
+                <label>New York</label>
+                <label>Lodon</label>
+                <label>Hats</label>
+                <label>North</label>
+              </div>
+              <div class="content2">
+                <label>Sweaters</label>
+                <label>Ideas</label>
+                <label>Deals</label>
+                <label>Accessories</label>
+              </div>
+
+              <div class="content3">
+                <label>News</label>
+                <label>Clothing</label>
+                <label>shopping</label>
+                <label>jeans</label>
+                <label>Trends</label>
+              </div>
+            </div>
+            <div class="div4content2">
+              <div>
+                <strong class="fashion">Fashion</strong>
+                <label class="rpxlabel">New York</label>
+                <label class="rpxlabel">Lodon</label>
+              </div>
+              <div>
+                <label class="rpxlabel">Hats</label>
+                <label class="rpxlabel">North</label>
+                <label class="rpxlabel">Sweaters</label>
+              </div>
+              <div>
+                <label class="rpxlabel">Ideas</label>
+                <label class="rpxlabel">Deals</label>
+                <label class="rpxlabel">Accessories</label>
+              </div>
+              <div>
+                <label class="rpxlabel">News</label>
+                <label class="rpxlabel">Clothing</label>
+                <label class="rpxlabel">shopping</label>
+              </div>
+              <div>
+                <label class="rpxlabel">jeans</label>
+                <label class="rpxlabel">Trends</label>
               </div>
             </div>
             <div class="div4content1">
@@ -479,18 +517,18 @@
             <h1>Follow Me</h1>
             <div class="icon">
               <!--add icons-->
-              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-              <a href="#"><ion-icon name="logo-snapchat"></ion-icon></a>
-              <a href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
-              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-              <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+              <a href="#"><i class="fa fa-facebook ico"></i></a>
+              <a href="#"><i class="fa fa-instagram ico"></i></a>
+              <a href="#"><i class="fa fa-snapchat ico"></i></a>
+              <a href="#"><i class="fa fa-pinterest-p ico"></i></a>
+              <a href="#"><i class="fa fa-twitter ico"></i></a>
+              <a href="#"><i class="fa fa-linkedin ico"></i></a>
             </div>
           </div>
           <div class="div7form">
             <h1 style="font-family: 'Oswald'">Subscribe</h1>
             <p>
-              Enter your e-mail below and get notified on the latest blog posts.
+              Enter your e-mail below and get notified on the latest blog <br> posts.
             </p>
             <div class="form">
               <input
@@ -522,6 +560,5 @@
         >
       </p>
     </footer>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>
