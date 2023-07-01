@@ -58,7 +58,7 @@ body {
 
 .ico,
 .div6followme ion-icon {
-  color: #000000;
+  color: #000;
   font-size: 25px;
   padding: 1px;
   margin-right: 0;
@@ -585,8 +585,7 @@ footer {
 .div4content1 {
   height: 100px;
   color: #000;
-  background-color: #fff;
-  /* display: flex; */
+  background-color: #fff; 
   flex-direction: column;
   justify-content: center;
   padding: 15px 15px 0;
@@ -1153,7 +1152,7 @@ footer {
   .subdiv22-desc p,
   .subdiv23-desc p,
   .subdiv24-desc p {
-    font-family: "Open sans";
+    font-family: "Open sans", sans-serif;
   }
 
   .subdiv21 img,
@@ -1161,7 +1160,7 @@ footer {
   .subdiv23 img,
   .subdiv24 img {
     height: 56px;
-    margin: 0 15px 0;
+    margin: 0 15px;
   }
 
   .div4content3,
@@ -1204,7 +1203,6 @@ footer {
 
   .img-reset {
     width: 124px;
-    /* height: 84px; */
   }
 
   .ico {
@@ -1326,7 +1324,7 @@ footer {
   .replie-btn3,
   .replie-btn2,
   .replie-btn {
-    padding: 10px 10px;
+    padding: 10px;
     margin-bottom: 0;
     width: 32vw;
     margin-left: 2px;
@@ -1356,7 +1354,7 @@ footer {
   }
 
   .col2 {
-    margin: 0 0 0;
+    margin: 0;
     padding: 0 20px;
     width: 100%;
   }
