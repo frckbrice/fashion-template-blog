@@ -3,7 +3,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid rgb(116 6 135);
+  /* border: 1px solid rgb(116 6 135); */
 }
 
 body {
@@ -11,7 +11,7 @@ body {
   font-size: 15px;
   font-family: "Open Sans", serif;
   color: #000;
-  border: 1px solid rgb(98 255 0);
+  /* border: 1px solid rgb(98 255 0); */
 }
 
 /* section1 header navbar */
