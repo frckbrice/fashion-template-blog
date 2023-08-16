@@ -3,11 +3,12 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid rgb(116 6 135); */
+  border: 1px solid rgb(116 6 135);
 }
 
 body {
   width: 100vw;
+  height: 100vh;
   font-size: 15px;
   font-family: "Open Sans", serif;
   color: #000;
@@ -158,7 +159,7 @@ footer p {
   font-size: 17px;
   font-family: Oswald, serif;
   font-weight: bold;
-  background: rgba(255 255 255 / 40%);
+  background: rgba(255 255 255 / 60%);
   border: none;
 }
 
@@ -774,6 +775,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+ 
   .socialnw {
     display: block;
     position: relative;
@@ -781,21 +783,27 @@ footer {
 
   .search {
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 10px;
+    margin-bottom: 10px;
   }
 
   .pict-title {
     font-size: 36px;
     font-family: Oswald, sans-serif;
     margin: 10px 0;
+    font-weight: 400;
+  }
+
+  h5.pict-title-desc {
+    float: left;
   }
 
   .pict-title-desc b {
-    padding-left: 0;
     font-size: 64px;
     font-family: Oswald, sans-serif;
     font-weight: bold;
+    margin-left: 0;
   }
 
   .bth a {
@@ -811,12 +819,13 @@ footer {
 
   .girlhat-box {
     height: 42%;
+    margin-bottom: 50px;
   }
 
   .girlhat-box,
   .blackhat-box,
   .runway-box {
-    height: 70vh;
+    /* height: 70vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -845,6 +854,7 @@ footer {
 
   .blackhat-box {
     height: 28%;
+    margin-top: 5%;
   }
 
   .runway-box {
@@ -883,6 +893,7 @@ footer {
 
   .hide.hide1 {
     width: 100%;
+
   }
 
   .replie-btn3,
@@ -890,7 +901,7 @@ footer {
   .replie-btn {
     padding: 10px;
     margin-bottom: 0;
-    width: 32vw;
+    /* width: 32vw; */
     margin-left: 2px;
   }
 
@@ -1021,9 +1032,23 @@ footer {
   }
 }
 
+@media screen and (max-width: 475px) {
+  .div1-img img {
+    width: 100%;
+  }
+} 
+
 @media screen and (max-width: 425px) {
   .socialnw {
     display: none;
+
+    #sect1 {
+      width: 100%;
+    }
+
+    .socialnw {
+      width: 100%;
+    }
   }
 
   /* section 2 */
@@ -1441,6 +1466,25 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+
+  #tobehid2,
+  #tobehid1 {
+    display: none;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 70%;
+  }
+  
+  .pic-commented {
+    width: 100%;
+  }
+
+  .pict-title-desc {
+    display: none;
+  }
+  
   /* section 1 */
   .socialnw {
     display: none;
@@ -1532,6 +1576,7 @@ footer {
   .col1 {
     margin: 16px 0 0;
     padding: 12px 27px 3px;
+    width: 100%;
   }
 
   hr {
@@ -1606,6 +1651,7 @@ footer {
     flex-direction: column;
     font-family: Oswald, sans-serif;
     font-weight: 400;
+   
   }
 
   .hide-desc h3 {
@@ -1614,20 +1660,28 @@ footer {
     margin-bottom: 0;
   }
 
+  .div-replies {
+  display: flex;
+  justify-content: center;
+  }
+/*  .gest-btn2, .gest-btn3  */
+  .gest-btn{
+   justify-content: center;
+  }
+
   .replie-btn3,
   .replie-btn2,
   .replie-btn {
-    padding: 10px 5px;
-    margin-bottom: 0;
-    width: 35vw;
-    margin-left: 2px;
+   
+    display: flex;
+    gap: 15px;
   }
 
   .like-btn3,
   .like-btn2,
   .like-btn {
-    padding: 10px;
-    margin-bottom: 0;
+    /* padding: 10px; */
+    /* margin-bottom: 0; */
     width: 30vw;
   }
 
@@ -1645,8 +1699,12 @@ footer {
     font-size: 15px;
   }
 
-  .div1 img {
-    height: 136px;
+  .div1  {
+    width: 100%;
+  }
+
+  .div1-img img {
+    width: 100%;
   }
 
   .avatar-desc-bgblack h4 {
