@@ -3,7 +3,8 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid rgb(116 6 135);
+
+  /* border: 1px solid rgb(116 6 135); */
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   font-size: 15px;
   font-family: "Open Sans", serif;
   color: #000;
-  
+
   /* border: 1px solid rgb(98 255 0); */
 }
 
@@ -135,15 +136,19 @@ p span {
 }
 
 .pict-title {
+  font-family: Oswald, sans-serif;
   margin: 10px 0;
   letter-spacing: 5px;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff!important;
 }
 
 .pict-title-desc {
   font-family: Oswald, sans-serif;
-  font-size: 18px;
+  font-size: 64px;
   margin: 10px 0;
-  padding: 12px 24px;
+  padding: 10px 0;
 }
 
 footer p {
@@ -612,6 +617,12 @@ footer {
 }
 
 .div4content3,
+  .div4content4,
+  .div4content2 {
+    display: none;
+  }
+
+.div4content3,
 .div4content2 {
   display: none;
 }
@@ -812,34 +823,12 @@ footer {
     padding: 12px 24px;
   }
 
-  /* section 2 */
   .container {
-    display: block;
+    flex-wrap: wrap;
   }
 
   .girlhat-box {
-    height: 42%;
     margin-bottom: 50px;
-  }
-
-  .girlhat-box,
-  .blackhat-box,
-  .runway-box {
-    /* height: 70vh; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .runway-p,
-  .blackhat-box,
-  .girlhat-box p {
-    text-align: justify;
-  }
-
-  .girlhat-img,
-  .blackhat-img {
-    width: 100%;
   }
 
   .girlhat-desc {
@@ -848,17 +837,13 @@ footer {
     justify-content: center;
   }
 
-  .girlhat-desc span {
-    display: flex;
-  }
-
   .blackhat-box {
-    height: 28%;
     margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .runway-box {
-    height: 18%;
+    margin-top: 5%;
     margin-bottom: 4%;
   }
 
@@ -934,7 +919,7 @@ footer {
 
   .div1-img img {
     height: 374.3px;
-    width: 698px;
+    width: 100%;
   }
 
   .subdiv21-desc p,
@@ -1031,7 +1016,48 @@ footer {
 }
 
 @media screen and (max-width: 475px) {
-  .div1-img img {
+ .socialnw {
+    display: none;
+  }
+
+  .pict-title {
+    font-size: 36px;
+    font-family: Oswald, sans-serif;
+    margin: 10px 0;
+    font-weight: 400;
+  }
+
+  .pict-title-desc {
+    display: none;
+  }
+
+  .runway-box {
+    margin-bottom: 6%;
+  }
+
+  .hide,
+  #tobehid2,
+  #tobehid1 {
+    display: none;
+  }
+
+  .col2 {
+    width: 100%;
+  }
+
+  .pict-grid {
+    column-gap: 15px;
+  }
+
+  .grids-gap1 img{
+    width: 100%;
+  }
+
+   .grids-gap2 img{
+    width: 100%;
+  }
+
+  footer {
     width: 100%;
   }
 }
@@ -1039,7 +1065,7 @@ footer {
 @media screen and (max-width: 425px) {
   .socialnw {
     display: none;
-
+  }
     #sect1 {
       width: 100%;
     }
@@ -1047,7 +1073,7 @@ footer {
     .socialnw {
       width: 100%;
     }
-  }
+  
 
   /* section 2 */
   .container {
