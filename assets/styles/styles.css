@@ -141,7 +141,7 @@ p span {
   letter-spacing: 5px;
   font-size: 36px;
   font-weight: 400;
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .pict-title-desc {
@@ -617,10 +617,10 @@ footer {
 }
 
 .div4content3,
-  .div4content4,
-  .div4content2 {
-    display: none;
-  }
+.div4content4,
+.div4content2 {
+  display: none;
+}
 
 .div4content3,
 .div4content2 {
@@ -1016,7 +1016,7 @@ footer {
 }
 
 @media screen and (max-width: 475px) {
- .socialnw {
+  .socialnw {
     display: none;
   }
 
@@ -1049,11 +1049,11 @@ footer {
     column-gap: 15px;
   }
 
-  .grids-gap1 img{
+  .grids-gap1 img {
     width: 100%;
   }
 
-   .grids-gap2 img{
+  .grids-gap2 img {
     width: 100%;
   }
 
@@ -1066,14 +1066,14 @@ footer {
   .socialnw {
     display: none;
   }
-    #sect1 {
-      width: 100%;
-    }
 
-    .socialnw {
-      width: 100%;
-    }
-  
+  #sect1 {
+    width: 100%;
+  }
+
+  .socialnw {
+    width: 100%;
+  }
 
   /* section 2 */
   .container {
@@ -1494,12 +1494,12 @@ footer {
   #tobehid1 {
     display: none;
   }
-  
+
   .btn {
     position: absolute;
     top: 70%;
   }
-  
+
   .pic-commented {
     width: 100%;
   }
@@ -1507,7 +1507,7 @@ footer {
   .pict-title-desc {
     display: none;
   }
-  
+
   .socialnw {
     display: none;
   }
@@ -1714,7 +1714,7 @@ footer {
     font-size: 15px;
   }
 
-  .div1{
+  .div1 {
     width: 100%;
   }
 
