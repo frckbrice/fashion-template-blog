@@ -12,6 +12,7 @@ body {
   font-size: 15px;
   font-family: "Open Sans", serif;
   color: #000;
+  
   /* border: 1px solid rgb(98 255 0); */
 }
 
@@ -775,7 +776,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
- 
   .socialnw {
     display: block;
     position: relative;
@@ -893,7 +893,6 @@ footer {
 
   .hide.hide1 {
     width: 100%;
-
   }
 
   .replie-btn3,
@@ -901,7 +900,6 @@ footer {
   .replie-btn {
     padding: 10px;
     margin-bottom: 0;
-    /* width: 32vw; */
     margin-left: 2px;
   }
 
@@ -1036,7 +1034,7 @@ footer {
   .div1-img img {
     width: 100%;
   }
-} 
+}
 
 @media screen and (max-width: 425px) {
   .socialnw {
@@ -1466,7 +1464,6 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
-
   #tobehid2,
   #tobehid1 {
     display: none;
@@ -1485,7 +1482,6 @@ footer {
     display: none;
   }
   
-  /* section 1 */
   .socialnw {
     display: none;
   }
@@ -1587,6 +1583,7 @@ footer {
 
   .gest-btn {
     margin-bottom: 15%;
+    justify-content: center;
   }
 
   .girlhat-box {
@@ -1651,7 +1648,6 @@ footer {
     flex-direction: column;
     font-family: Oswald, sans-serif;
     font-weight: 400;
-   
   }
 
   .hide-desc h3 {
@@ -1661,18 +1657,13 @@ footer {
   }
 
   .div-replies {
-  display: flex;
-  justify-content: center;
-  }
-/*  .gest-btn2, .gest-btn3  */
-  .gest-btn{
-   justify-content: center;
+    display: flex;
+    justify-content: center;
   }
 
   .replie-btn3,
   .replie-btn2,
   .replie-btn {
-   
     display: flex;
     gap: 15px;
   }
@@ -1680,8 +1671,6 @@ footer {
   .like-btn3,
   .like-btn2,
   .like-btn {
-    /* padding: 10px; */
-    /* margin-bottom: 0; */
     width: 30vw;
   }
 
@@ -1699,7 +1688,7 @@ footer {
     font-size: 15px;
   }
 
-  .div1  {
+  .div1{
     width: 100%;
   }
 
